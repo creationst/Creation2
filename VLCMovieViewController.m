@@ -149,7 +149,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.wantsFullScreenLayout = YES;
+    //self.wantsFullScreenLayout = YES;
     self.extendedLayoutIncludesOpaqueBars = YES;
     self.videoFilterView.hidden = YES;
     _videoFiltersHidden = YES;
@@ -655,7 +655,8 @@
     [super viewDidAppear:animated];
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     [self becomeFirstResponder];
-    [self _startPlayback];
+    [self performSelector:@selector(_startPlayback) withObject:nil afterDelay:1];
+//    [self _startPlayback];
 }
 
 - (void)viewDidDisappear:(BOOL)animated

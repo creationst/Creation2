@@ -1,32 +1,34 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++7D9C4D1",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8BABC857CC127A1A2732AB76392CFBA791DAE59+++7A7B39E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++7D9C4D1" : 0,
-    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++873F101" : 0,
-    "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++689A69C" : 0,
-    "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E558F27" : 0,
-    "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++CA9668D" : 0,
-    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++3314E3D" : 0,
-    "E762CD65D845A389E722D635E1047A2B49FAD434+++D14AB15" : 0,
-    "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++0017AA7" : 0,
-    "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++795929E" : 0,
-    "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++FBAAEA8" : 0
+    "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++2FEF1EB" : 0,
+    "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++0C49F38" : 0,
+    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++C93C586" : 0,
+    "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E42AA18" : 0,
+    "E762CD65D845A389E722D635E1047A2B49FAD434+++E4E95DB" : 0,
+    "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++A7611B0" : 0,
+    "B8BABC857CC127A1A2732AB76392CFBA791DAE59+++7A7B39E" : 0,
+    "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++E1DDA63" : 0,
+    "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++2F73E87" : 0,
+    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++46537EA" : 0,
+    "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++74DC3CB" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "669811A9-6231-4F73-AC33-D4FA407BDF60",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++7D9C4D1" : "CreationVideoPlayer",
-    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++873F101" : "VLCios\/ios\/ImportedSources\/MediaLibraryKit",
-    "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++689A69C" : "VLCios\/ImportedSources\/InAppSettingsKit",
-    "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E558F27" : "VLCios\/ImportedSources\/MediaLibraryKit",
-    "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++CA9668D" : "VLCios",
-    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++3314E3D" : "VLCios\/ios\/ImportedSources\/MediaLibraryKit",
-    "E762CD65D845A389E722D635E1047A2B49FAD434+++D14AB15" : "VLCios\/ImportedSources\/OBSlider",
-    "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++0017AA7" : "VLCios\/ImportedSources\/VLCKit",
-    "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++795929E" : "VLCios\/ImportedSources\/VLCKit\/MobileVLCKit\/ImportedSources\/vlc",
-    "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++FBAAEA8" : "VLCios\/ios\/ImportedSources\/VLCKit"
+    "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++2FEF1EB" : "VLCios\/ImportedSources\/InAppSettingsKit",
+    "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++0C49F38" : "CreationVideoPlayer",
+    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++C93C586" : "VLCios\/ios\/ImportedSources\/MediaLibraryKit",
+    "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E42AA18" : "VLCios\/ImportedSources\/MediaLibraryKit",
+    "E762CD65D845A389E722D635E1047A2B49FAD434+++E4E95DB" : "VLCios\/ImportedSources\/OBSlider",
+    "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++A7611B0" : "VLCios\/ImportedSources\/VLCKit",
+    "B8BABC857CC127A1A2732AB76392CFBA791DAE59+++7A7B39E" : "Creation2\/",
+    "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++E1DDA63" : "VLCios",
+    "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++2F73E87" : "VLCios\/ImportedSources\/VLCKit\/MobileVLCKit\/ImportedSources\/vlc",
+    "29108FFA-5EC2-4ADC-9497-50D612EC038A+++46537EA" : "VLCios\/ios\/ImportedSources\/MediaLibraryKit",
+    "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++74DC3CB" : "VLCios\/ios\/ImportedSources\/VLCKit"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CreationVideoPlayer",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -35,52 +37,57 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/vlc-bindings\/VLCKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++0017AA7"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0EFDF2D073A77BC2CB2CF6173E0F3A830E66F8AF+++A7611B0"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/futuretap\/InAppSettingsKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++689A69C"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1712FC0BC3C9AABD8B7B5376E310E93FBDB3BCFA+++2FEF1EB"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/MediaLibraryKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29108FFA-5EC2-4ADC-9497-50D612EC038A+++3314E3D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29108FFA-5EC2-4ADC-9497-50D612EC038A+++46537EA"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/MediaLibraryKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29108FFA-5EC2-4ADC-9497-50D612EC038A+++873F101"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "29108FFA-5EC2-4ADC-9497-50D612EC038A+++C93C586"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/vlc-ports\/ios.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++CA9668D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CF509C42B2F608C19CBF7B35F7A8AA417E84E3E+++E1DDA63"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/creationst\/CreationMoviePlayer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++7D9C4D1"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4ACA7508FD0191B3E88729D18039F8C4574F9B5+++0C49F38"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:creationst\/Creation2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8BABC857CC127A1A2732AB76392CFBA791DAE59+++7A7B39E"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/vlc\/vlc-2.1.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++795929E"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC4BC20FB84A4BEF5234EA960E23CD7891297F77+++2F73E87"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/MediaLibraryKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E558F27"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2C3B3D4A084F704F085298FA14FC4A795C8DE08+++E42AA18"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/ole\/OBSlider.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E762CD65D845A389E722D635E1047A2B49FAD434+++D14AB15"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E762CD65D845A389E722D635E1047A2B49FAD434+++E4E95DB"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/vlc-bindings\/VLCKit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++FBAAEA8"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0122F60-0A4B-4200-8B8D-A33348ADB1C5+++74DC3CB"
     }
   ]
 }

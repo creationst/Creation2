@@ -27,16 +27,11 @@
 
 
 @implementation MainViewController
-{
-    BOOL popUpViewShown;
-}
 
 
 -(id)init
 {
     if (self = [super init]) {
-        
-        popUpViewShown = YES;
         
     }
     
@@ -78,7 +73,7 @@
     [self.view setClipsToBounds:YES];
     
     popOver = [[PopOverViewController alloc] init];
-    [popOver.view setHidden:!popUpViewShown];
+//    [popOver.view setHidden:!popUpViewShown];
     [self.view addSubview:popOver.view];
     [popOver.view setCenter:CGPointMake(self.view.frame.size.width/2 , self.view.frame.size.height/2)];
     
@@ -96,10 +91,10 @@
 
 - (void)showPopUpView:(BOOL)show
 {
-    if (show != popUpViewShown) {
-        popUpViewShown = show;
-    }
-    
+//    if (show != popUpViewShown) {
+//        popUpViewShown = show;
+//    }
+//    
     [popOver.view setHidden:!show];
 }
 

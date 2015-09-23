@@ -22,12 +22,12 @@
 #import "VLCPlaylistViewController.h"
 #import "UINavigationController+Theme.h"
 #import "MainViewController.h"
-//#import <Fabric/Fabric.h>
-//#import <Crashlytics/Crashlytics.h>
 
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
 #import "PushNotificationsManager.h"
+
+#import "MediaLibraryKit.h"
 
 
 @interface C5MPAppDelegate () {
@@ -48,6 +48,7 @@
 {
     MainViewController          *mainVC;
     PushNotificationsManager    *_pushManager;
+    BOOL                        _appOpenedFromURL;
 }
 
 
@@ -91,6 +92,8 @@
     // PUSH notifications
     _pushManager = [[PushNotificationsManager alloc] initWithAppLaunchOptions:launchOptions];
     
+    _appOpenedFromURL = NO;
+    
     return YES;
 }
 
@@ -110,6 +113,7 @@
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     if (url != nil) {
+        _appOpenedFromURL = YES;
         APLog(@"%@ requested %@ to be opened", sourceApplication, url);
         //NSLog(@"%@", url.absoluteURL);
         NSString *stringURL;
@@ -122,9 +126,6 @@
                 url = [NSURL fileURLWithPath:stringURL];
             }
         }
-        
-        // Hide the pop up view
-        [mainVC showPopUpView:NO];
         
         if ([stringURL rangeOfString:@"DownloadedItems"].location != NSNotFound) {
             
@@ -160,16 +161,23 @@
 {
     self.passcodeValidated = NO;
     [[MLMediaLibrary sharedMediaLibrary] applicationWillExit];
-    
-    [mainVC showPopUpView:YES];
 }
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     [[MLMediaLibrary sharedMediaLibrary] updateMediaDatabase];
+    if (!_appOpenedFromURL) {
+        [mainVC showPopUpView:YES];
+    }
 }
 
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    _appOpenedFromURL = NO;
+    [self hidePopOver];
+}
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
@@ -185,6 +193,18 @@
     [self openMovieFromURL:url withFlagBackToC5:NO];
 }
 
+
+- (void)hidePopOver
+{
+    if (![[NSThread currentThread] isMainThread]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self hidePopOver];
+        });
+        return;
+    }
+    
+    [mainVC showPopUpView:NO];
+}
 
 
 

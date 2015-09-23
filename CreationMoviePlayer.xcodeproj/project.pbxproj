@@ -912,7 +912,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = VLC;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = VideoLAN;
 				TargetAttributes = {
 					7D94FCDA16DE7D1000F2623B = {
@@ -1209,6 +1209,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1290,6 +1291,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-Wl,-no_pie";
+				PRODUCT_BUNDLE_IDENTIFIER = CreationMoviePlayer;
 				PRODUCT_NAME = MoviePlayer;
 				PROVISIONING_PROFILE = "";
 			};
@@ -1331,6 +1333,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-Wl,-no_pie";
+				PRODUCT_BUNDLE_IDENTIFIER = CreationMoviePlayer;
 				PRODUCT_NAME = MoviePlayer;
 				PROVISIONING_PROFILE = "fb44b841-be85-4146-8119-acbae92e1cf7";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fb44b841-be85-4146-8119-acbae92e1cf7";
@@ -1400,6 +1403,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-Wl,-no_pie";
+				PRODUCT_BUNDLE_IDENTIFIER = CreationMoviePlayer;
 				PRODUCT_NAME = MoviePlayer;
 				PROVISIONING_PROFILE = "fb44b841-be85-4146-8119-acbae92e1cf7";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fb44b841-be85-4146-8119-acbae92e1cf7";
