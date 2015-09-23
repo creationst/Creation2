@@ -1,0 +1,8 @@
+misc/update_crypto.lo: \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/src/misc/update_crypto.c \
+  ../config.h \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/include/vlc_fixups.h
+
+../config.h:
+
+/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/include/vlc_fixups.h:

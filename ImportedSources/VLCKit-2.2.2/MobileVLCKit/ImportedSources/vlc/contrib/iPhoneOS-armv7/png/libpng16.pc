@@ -1,0 +1,11 @@
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.16
+Libs: -L${libdir} -lpng16
+Libs.private: -lz 
+Cflags: -I${includedir}

@@ -1,0 +1,10 @@
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s/include
+
+Name: libdvbpsi
+Description: libdvbpsi is a simple library designed for decoding and generation of MPEG TS and DVB PSI tables.
+Version: 1.2.0
+Libs: -L${libdir} -ldvbpsi
+Cflags: -I${includedir}

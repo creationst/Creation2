@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=${prefix}/include
+
+Name: libmodplug
+Description: The ModPlug mod file playing library.
+Version: @VERSION@
+Cflags: -I${includedir} -DMODPLUG_STATIC
+Libs:  -L${libdir} -lmodplug  -lstdc++ -lm
+Requires:  

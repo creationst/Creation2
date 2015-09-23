@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/install-ios-OS/arm64/bin/vlc -I "dummy" "$@"

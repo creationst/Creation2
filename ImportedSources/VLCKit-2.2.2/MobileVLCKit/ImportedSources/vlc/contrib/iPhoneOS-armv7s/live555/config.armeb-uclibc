@@ -1,0 +1,19 @@
+CROSS_COMPILE=         armeb-linux-uclibc-
+COMPILE_OPTS =          $(INCLUDES) -I. -Os -DSOCKLEN_T=socklen_t -DNO_SSTREAM=1 -D -arch armv7s -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7s -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7s -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7s -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s/include -fexceptions
+LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64
+C =                    c
+C_COMPILER =           $(CROSS_COMPILE)gcc
+C_FLAGS =              $(COMPILE_OPTS)
+CPP =                  cpp
+CPLUSPLUS_COMPILER =   $(CROSS_COMPILE)g++
+CPLUSPLUS_FLAGS =      $(COMPILE_OPTS) -Wall -DBSD=1
+OBJ =                  o
+LINK =                 $(CROSS_COMPILE)gcc -o
+LINK_OPTS =            -L.
+CONSOLE_LINK_OPTS =    $(LINK_OPTS)
+LIBRARY_LINK =         $(CROSS_COMPILE)ar cr 
+LIBRARY_LINK_OPTS =    
+LIB_SUFFIX =                   a
+LIBS_FOR_CONSOLE_APPLICATION =
+LIBS_FOR_GUI_APPLICATION =
+EXE =

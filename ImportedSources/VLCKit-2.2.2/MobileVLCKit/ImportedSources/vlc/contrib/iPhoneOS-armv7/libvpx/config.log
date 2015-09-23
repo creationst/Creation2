@@ -1,0 +1,265 @@
+# ./configure --target=generic-gnu --enable-runtime-cpu-detect --disable-docs --disable-examples --disable-unit-tests --disable-install-bins --disable-install-docs --disable-vp8-encoder --disable-vp9-encoder --enable-pic --sdk-path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk --enable-vp8-decoder --disable-vp8-encoder --disable-vp9-encoder --prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7
+Configuring selected codecs
+  enabling vp8_decoder
+  enabling vp9_decoder
+Configuring for target 'generic-gnu'
+  enabling generic
+check_cxxflags -O3
+check_cxx -Werror -O3
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -Werror -O3 -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -O3
+check_cc -O3
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+  enabling use_x86inc
+check_cxxflags -fPIC
+check_cxx -Werror -fPIC
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -Werror -fPIC -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -fPIC
+check_cc -fPIC
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cc
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	    unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cc
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	    static inline function() {}
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+/tmp/vpx-conf-26976-10032.c:1:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+    static inline function() {}
+    ~~~~~~~~~~~~~ ^
+/tmp/vpx-conf-26976-10032.c:1:31: warning: control reaches end of non-void function [-Wreturn-type]
+    static inline function() {}
+                              ^
+2 warnings generated.
+check_cc
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	    static __attribute__((always_inline)) function() {}
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+/tmp/vpx-conf-26976-10032.c:1:43: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+    static __attribute__((always_inline)) function() {}
+    ~~~~~~                                ^
+/tmp/vpx-conf-26976-10032.c:1:55: warning: control reaches end of non-void function [-Wreturn-type]
+    static __attribute__((always_inline)) function() {}
+                                                      ^
+2 warnings generated.
+check_header pthread.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "pthread.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wall
+check_cxx -Werror -Wall
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Werror -Wall -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wall
+check_cc -Wall
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wdeclaration-after-statement
+check_cxx -Werror -Wdeclaration-after-statement
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Werror -Wdeclaration-after-statement -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wdeclaration-after-statement
+check_cc -Wdeclaration-after-statement
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wdisabled-optimization
+check_cxx -Werror -Wdisabled-optimization
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Werror -Wdisabled-optimization -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wdisabled-optimization
+check_cc -Wdisabled-optimization
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wpointer-arith
+check_cxx -Werror -Wpointer-arith
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Werror -Wpointer-arith -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wpointer-arith
+check_cc -Wpointer-arith
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wtype-limits
+check_cxx -Werror -Wtype-limits
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wtype-limits
+check_cc -Wtype-limits
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wcast-qual
+check_cxx -Werror -Wcast-qual
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wcast-qual
+check_cc -Wcast-qual
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wvla
+check_cxx -Werror -Wvla
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wvla
+check_cc -Wvla
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wimplicit-function-declaration
+check_cxx -Werror -Wimplicit-function-declaration
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wimplicit-function-declaration
+check_cc -Wimplicit-function-declaration
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wuninitialized
+check_cxx -Werror -Wuninitialized
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Werror -Wuninitialized -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wuninitialized
+check_cc -Wuninitialized
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wunused-variable
+check_cxx -Werror -Wunused-variable
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Werror -Wunused-variable -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wunused-variable
+check_cc -Wunused-variable
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -fno-strict-aliasing
+check_cxx -Werror -fno-strict-aliasing
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Werror -fno-strict-aliasing -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -fno-strict-aliasing
+check_cc -fno-strict-aliasing
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxxflags -Wno-unused-function
+check_cxx -Werror -Wno-unused-function
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int x;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Werror -Wno-unused-function -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_cflags -Wno-unused-function
+check_cc -Wno-unused-function
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_cxx
+BEGIN /tmp/vpx-conf-26976-10032.cc
+    1	int z;
+END /tmp/vpx-conf-26976-10032.cc
+xcrun clang++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -stdlib=libstdc++ -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.cc
+check_header stdio.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "stdio.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_ld
+check_cc
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	int main(void) {return 0;}
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -c -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+xcrun ld -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib -arch armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -ios_version_min 6.1 -o /tmp/vpx-conf-26976-10032.x /tmp/vpx-conf-26976-10032.o -lpthread
+check_header stdint.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "stdint.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_header pthread.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "pthread.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_header sys/mman.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "sys/mman.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_header unistd.h
+check_cpp
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "unistd.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c
+check_header vpx/vpx_integer.h -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/iPhoneOS-armv7/libvpx
+check_cpp -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/iPhoneOS-armv7/libvpx
+BEGIN /tmp/vpx-conf-26976-10032.c
+    1	#include "vpx/vpx_integer.h"
+    2	int x;
+END /tmp/vpx-conf-26976-10032.c
+xcrun clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -arch armv7 -mcpu=cortex-a8 -miphoneos-version-min=6.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk -arch armv7 -O3 -g -mcpu=cortex-a8 -miphoneos-version-min=6.1 -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include -g -O3 -fPIC -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -I/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/iPhoneOS-armv7/libvpx -E -o /tmp/vpx-conf-26976-10032.o /tmp/vpx-conf-26976-10032.c

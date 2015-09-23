@@ -1,0 +1,14 @@
+# theoradec installed pkg-config file
+
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64/include
+
+Name: theora
+Description: Theora video codec (decoder)
+Version: 1.1.1
+Requires: ogg >= 1.1
+Conflicts:
+Libs: -L${libdir} -ltheoradec
+Cflags: -I${includedir}

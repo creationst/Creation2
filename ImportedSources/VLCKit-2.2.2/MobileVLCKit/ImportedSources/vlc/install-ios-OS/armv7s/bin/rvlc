@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/install-ios-OS/armv7s/bin/vlc -I "rc" "$@"

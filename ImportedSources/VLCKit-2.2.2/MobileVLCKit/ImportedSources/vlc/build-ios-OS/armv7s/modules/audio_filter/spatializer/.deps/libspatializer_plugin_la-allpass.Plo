@@ -1,0 +1,8 @@
+spatializer/libspatializer_plugin_la-allpass.lo: \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/modules/audio_filter/spatializer/allpass.cpp \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/modules/audio_filter/spatializer/allpass.hpp \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/modules/audio_filter/spatializer/denormals.h
+
+/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/modules/audio_filter/spatializer/allpass.hpp:
+
+/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/modules/audio_filter/spatializer/denormals.h:

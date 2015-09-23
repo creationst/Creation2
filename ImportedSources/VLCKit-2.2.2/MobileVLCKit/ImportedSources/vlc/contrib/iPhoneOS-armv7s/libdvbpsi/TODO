@@ -1,0 +1,13 @@
+TODO:
+
+- Implement:
+	void dvbpsi_set_context(dvbpsi_t *p_dvbpsi, void *data);
+	void *dvbpsi_get_context(dvbpsi_t *p_dvbpsi);
+- simplify chaining decoders in demux functions, eg:
+  implement:
+	bool dvbpsi_chain_decoder_add(dvbpsi_t *p_dvbpsi, dvbspi_decoder_t *p_decoder);
+	void dvbpsi_chain_decoder_del(dvbpsi_t *p_dvbpsi, dvbspi_decoder_t *p_decoder);
+	bool dvbpsi_chain_decoder_find(dvbpsi_t *p_dvbpsi, const uint16_t table_id, const uint16_t extension);
+- simplify PSI table attach functions "dvbpsi_XXX_attach()"
+	+ remove first argument void * callback data (probably not needed)
+	+ use dvbpsi_t::p_sys to pass private application data around (iso decoder_t::p_cb_data)

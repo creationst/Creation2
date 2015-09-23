@@ -1,0 +1,15 @@
+# libspeex pkg-config source file
+
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64/include
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2rc2
+Requires:
+Conflicts:
+Libs: -L${libdir} -lspeex
+Libs.private: 
+Cflags: -I${includedir}

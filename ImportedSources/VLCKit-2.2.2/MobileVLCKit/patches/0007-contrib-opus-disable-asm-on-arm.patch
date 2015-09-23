@@ -1,0 +1,26 @@
+From 0a72aeb45c7b3aec98df1b2bde3fd08fd5634310 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Felix=20Paul=20K=C3=BChne?= <fkuehne@videolan.org>
+Date: Wed, 15 Jan 2014 15:26:46 +0100
+Subject: [PATCH 07/18] contrib/opus disable asm on arm
+
+---
+ contrib/src/opus/rules.mak | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/contrib/src/opus/rules.mak b/contrib/src/opus/rules.mak
+index 56f0933..273521f 100644
+--- a/contrib/src/opus/rules.mak
++++ b/contrib/src/opus/rules.mak
+@@ -23,6 +23,9 @@ OPUS_CONF= --disable-extra-programs --disable-doc
+ ifndef HAVE_FPU
+ OPUS_CONF += --enable-fixed-point
+ endif
++ifdef HAVE_IOS
++OPUS_CONF += --disable-asm
++endif
+ 
+ .opus: opus
+ 	cd $< && $(HOSTVARS) ./configure $(HOSTCONF) $(OPUS_CONF)
+-- 
+2.4.3
+

@@ -1,0 +1,8 @@
+#! /bin/sh
+rm -f .error$$
+ERROR=0
+export PATH="/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64/bin:/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/extras/tools/build/bin:/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin" LANG=C
+(make V=1 $@ 2>&1 || touch .error$$)| /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/extras/buildsystem/make.pl
+test -f .error$$ && ERROR=1
+rm -f .error$$
+exit $ERROR

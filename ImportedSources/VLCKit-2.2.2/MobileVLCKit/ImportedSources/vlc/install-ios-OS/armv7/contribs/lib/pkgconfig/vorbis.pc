@@ -1,0 +1,15 @@
+# libvorbis pkg-config source file
+
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include
+
+Name: vorbis
+Description: vorbis is the primary Ogg Vorbis library
+Version: 1.3.5
+Requires.private: ogg
+Conflicts:
+Libs: -L${libdir} -lvorbis 
+Libs.private: -lm
+Cflags: -I${includedir}

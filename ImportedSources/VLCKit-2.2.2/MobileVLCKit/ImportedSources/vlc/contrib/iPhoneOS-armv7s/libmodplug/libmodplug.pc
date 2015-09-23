@@ -1,0 +1,11 @@
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7s/lib
+includedir=${prefix}/include
+
+Name: libmodplug
+Description: The ModPlug mod file playing library.
+Version: 0.8.8.5
+Cflags: -I${includedir} -DMODPLUG_STATIC
+Libs:  -L${libdir} -lmodplug  -lstdc++ -lm
+Requires:  

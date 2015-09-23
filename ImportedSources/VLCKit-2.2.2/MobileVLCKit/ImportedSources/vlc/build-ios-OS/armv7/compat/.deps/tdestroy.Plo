@@ -1,0 +1,8 @@
+tdestroy.lo: \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/compat/tdestroy.c \
+  ../config.h \
+  /Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/include/vlc_fixups.h
+
+../config.h:
+
+/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/include/vlc_fixups.h:

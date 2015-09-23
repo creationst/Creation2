@@ -1,0 +1,13 @@
+# pkg-config file from libvpx v1.3.0
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-arm64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: vpx
+Description: WebM Project VPx codec implementation
+Version: 1.3.0
+Conflicts:
+Cflags: -I${includedir}
+Libs:  -L${libdir} -lvpx -lm  -lm -lpthread
+Requires:  

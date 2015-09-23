@@ -1,0 +1,146 @@
+Version 2.5.2
+-------------
+* Smaller library size by increased dead code stripping
+* Added new target to create a read-only variant which
+  does not depend on VLCKit
+
+Version 2.5.1
+-------------
+Added Public APIs:
+- MLMediaLibrary:
+  - new selectors: libraryBasePath
+                   additionalPersitentStoreOptions
+                   objectForURIRepresentation:
+                   migrateLibraryToBasePath
+                   deviceSpeedCategory
+                   computeThumbnailForFile:
+                   fetchMetaDataForFile:
+- MLFile:
+  - new selector: setComputedThumbnailScaledForDevice
+- MLAlbum:
+  - new selector: addAlbumTrack
+- MLAlbumTrack:
+  - new selectors: trackWithAlbum:trackNumber:trackName:createIfNeeded:
+                   trackWithAlbumName:trackNumber:trackName:createIfNeeded:wasCreated:
+
+Version 2.5
+-----------
+- Updated database format allowing more meta data
+- Stability improvements
+
+Version 2.4
+-----------
+- NEW: code was upgraded to ARC
+- FIX: library is no longer reset when upgrading iOS app through the store
+- FIX: [] pattern is correctly removed from file titles
+
+Added Public APIs:
+- MLMediaLibrary
+  - new selector: documentFolderPath
+
+Version 2.3
+-----------
+- FIX: crash when deploying MLFile's unread property
+
+Added Public APIs:
+- MLFile:
+  - new selectors: fileForURL
+                   folderTrackNumber
+- MLLabel:
+  - new selector: sortedFolderItems
+- MLMediaLibrary:
+  - new selector: removeObject
+
+Version 2.2.1
+-------------
+- FIX: incorrect return value for untitled TV shows
+- FIX: crash in setter/getter for lastPosition and unread in MLFile
+- Thumbnailer: use a special libVLC instance for thumbnails
+
+Version 2.2
+-----------
+- FIX: correct subitem behavior of MLShow and MLAlbum on removal
+- FIX: MLTitleDecrapifier handles shows with more than 99 and less than 1000
+  episodes correctly now
+- NEW: added user defaults option to disable file name display optimizations
+  when media is newly added to the library
+- FIX: thumbnails are correctly purged if a media item is removed
+
+Added Public APIs:
+- MLShow:
+  - new selectors: removeEpisode:
+                   removeEpisodeWithSeasonNumber:andEpisodeNumber:
+                   sortedEpisodes
+- MLAlbum:
+  - new selectors: removeTrack:
+                   removeTrackWithTrackNumber:
+                   sortedTracks
+- MLLabel:
+  - new selector: allLabels
+
+Version 2.1.3
+-------------
+- fix crash when processing files whose names are less than 6 characters long
+  (after removing the file extension)
+
+Version 2.1.2
+-------------
+- fix crashes and missing exception handlings
+- fix memory leaks in MLFile, library and title sanitizer
+- prevent zombie creation and VLCMedia corruptions
+
+Version 2.1.1
+-------------
+- improved title decrapification with faster processing and support for older
+  TV show naming schemes
+- improve notifications of some properties
+
+Version 2.1
+-----------
+Features:
+- added support for audio file detection and album organization
+- improved title decrapification including advanced TV Show support
+- overall stability improvements
+- updated database format including a future-proof upgrade API
+
+Added Public APIs:
+- MLAlbum:
+  - New class
+- MLAlbumTrack:
+  - New class
+- MLFile:
+  - new properties: lastAudioTrack, lastSubtitleTrack
+- MLMediaLibrary:
+  - new properties: delegate, libraryNeedsUpgrade
+  - new selector: upgradeLibrary
+  - new delegate protocol: libraryUpgradeComplete
+
+Version 2.0
+-----------
+The entire library was cleaned and relicensed to LGPL 2.1 or later.
+Please note that the Objective-C syntax was updated, so MediaLibraryKit may no longer compile with outdated versions of Xcode / clang.
+
+Features:
+- added automatic support for HiDPI thumbnails depending on the iOS device the
+  client app is executed on
+
+Added APIs:
+- MediaLibraryKit:
+  - added a generic header to include the entire framework's functionality
+    with a single #import
+- MLMediaLibrary:
+  - (void)updateMediaDatabase;
+
+Removed APIs and code:
+- MLMediaLibrary:
+  - (void)updateDatabase;
+- NameCleaner.rb
+
+Modified behavior and misc:
+- use of clang instead of llvm-gcc-4.2
+- updated project file for Xcode 4.3 and later
+- iOS Deployment target was raised to iOS 5.1
+- different logging behavior: to see any debug messages, the framework needs
+  to be compiled in debug mode.
+- fixed a significant number of memory leaks
+- updated TouchXML snapshot to current HEAD

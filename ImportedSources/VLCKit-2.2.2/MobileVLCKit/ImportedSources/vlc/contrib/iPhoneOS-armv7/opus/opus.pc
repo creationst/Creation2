@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7
+exec_prefix=${prefix}
+libdir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/lib
+includedir=/Users/devmarcos/Documents/GitHubRepos/CreationVideoPlayer/VLCKit-2.2.2/MobileVLCKit/ImportedSources/vlc/contrib/arm-apple-darwin11-armv7/include
+
+Name: Opus
+Description: Opus IETF audio codec (fixed-point build)
+URL: http://opus-codec.org/
+Version: 1.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lopus
+Libs.private: 
+Cflags: -I${includedir}/opus

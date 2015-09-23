@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CreationMoviePlayer.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "VLC Internals">
+      <FileRef
+         location = "group:../VLCios/ImportedSources/VLCKit/MobileVLCKit/ImportedSources/vlc/modules/text_renderer/quartztext.c">
+      </FileRef>
+      <FileRef
+         location = "group:../VLCios/ImportedSources/VLCKit/MobileVLCKit/ImportedSources/vlc/modules/video_output/ios2.m">
+      </FileRef>
+      <FileRef
+         location = "group:../VLCios/ImportedSources/VLCKit/MobileVLCKit/ImportedSources/vlc/modules/video_output/opengl.c">
+      </FileRef>
+      <FileRef
+         location = "group:../VLCios/ImportedSources/VLCKit/MobileVLCKit/ImportedSources/vlc/modules/audio_output/audiounit_ios.c">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:ImportedSources/MediaLibraryKit-2.5.4/MediaLibraryKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ImportedSources/VLCKit-2.2.2/MobileVLCKit.xcodeproj">
+   </FileRef>
+</Workspace>
