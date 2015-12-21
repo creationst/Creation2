@@ -1335,8 +1335,8 @@
 				OTHER_LDFLAGS = "-Wl,-no_pie";
 				PRODUCT_BUNDLE_IDENTIFIER = CreationMoviePlayer;
 				PRODUCT_NAME = MoviePlayer;
-				PROVISIONING_PROFILE = "fb44b841-be85-4146-8119-acbae92e1cf7";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fb44b841-be85-4146-8119-acbae92e1cf7";
+				PROVISIONING_PROFILE = "f5731fbc-3203-4345-a09a-4d41910a3c76";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f5731fbc-3203-4345-a09a-4d41910a3c76";
 			};
 			name = Release;
 		};
@@ -1405,8 +1405,8 @@
 				OTHER_LDFLAGS = "-Wl,-no_pie";
 				PRODUCT_BUNDLE_IDENTIFIER = CreationMoviePlayer;
 				PRODUCT_NAME = MoviePlayer;
-				PROVISIONING_PROFILE = "fb44b841-be85-4146-8119-acbae92e1cf7";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fb44b841-be85-4146-8119-acbae92e1cf7";
+				PROVISIONING_PROFILE = "f5731fbc-3203-4345-a09a-4d41910a3c76";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f5731fbc-3203-4345-a09a-4d41910a3c76";
 			};
 			name = Distribution;
 		};

@@ -248,6 +248,13 @@
 
 - (void)openMovieFromURL:(NSURL *)url withFlagBackToC5:(BOOL) flagC5;
 {
+    if (![[NSThread currentThread] isMainThread]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self openMovieFromURL:url withFlagBackToC5:flagC5];
+        });
+        return;
+    }
+    
     _movieViewController2 = [[VLCMovieViewController alloc] initWithNibName:nil bundle:nil];
     
     [_movieViewController2 setUrl:url];
