@@ -9,6 +9,7 @@
 #import "PopOverViewController.h"
 #import "NSString+SupportedMedia.h"
 #import "C5MPAppDelegate.h"
+#import "AboutViewController.h"
 
 @interface PopOverViewController () <UITextFieldDelegate>
 {
@@ -22,6 +23,8 @@
     UIButton *openFileButton;
     UILabel *or1;
     UILabel *or2;
+    
+    AboutViewController *about;
 }
 
 
@@ -53,6 +56,12 @@
         [self.view setFrame:CGRectMake(0, 0, 590, 640)];
         banner = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CreationBanner.png"]];
         [self.view addSubview:banner];
+        
+        UIButton *aboutButton = [[UIButton alloc] initWithFrame:CGRectMake(banner.frame.origin.x + banner.frame.size.width - 80, banner.frame.origin.y + banner.frame.size.height - 40, 80, 30)];
+        [[aboutButton titleLabel] setFont:[UIFont systemFontOfSize:14]];
+        [aboutButton setTitle:@"About" forState:UIControlStateNormal];
+        [aboutButton addTarget:self action:@selector(openAbout) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:aboutButton];
         
         title = [[UILabel alloc] initWithFrame:CGRectMake(0, 310, 590, 50)];
         [title setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:35]];
@@ -248,6 +257,21 @@
     [address setAlpha:1.0f];
     [address setReturnKeyType:UIReturnKeyGo];
     [address becomeFirstResponder];
+}
+
+
+-(void) openAbout
+{
+    NSLog(@"Abrir about");
+    about = [[AboutViewController alloc] init];
+    
+    [[[[UIApplication sharedApplication] keyWindow] rootViewController] presentViewController:about animated:YES completion:^{
+        
+    }];
+    
+//    [self presentViewController:about animated:YES completion:^{
+//        NSLog(@"Terminado");
+//    }];
 }
 
 //
