@@ -268,7 +268,6 @@
 
 -(void) openAbout
 {
-    NSLog(@"Abrir about");
     about = [[AboutViewController alloc] init];
     
     [[[[UIApplication sharedApplication] keyWindow] rootViewController] presentViewController:about animated:YES completion:^{
