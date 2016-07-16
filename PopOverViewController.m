@@ -126,6 +126,12 @@
         [banner setFrame:CGRectMake(0, 0, 295, 149)];
         [self.view addSubview:banner];
         
+        UIButton *aboutButton = [[UIButton alloc] initWithFrame:CGRectMake(banner.frame.origin.x + banner.frame.size.width - 70, banner.frame.origin.y + banner.frame.size.height - 35, 80, 30)];
+        [[aboutButton titleLabel] setFont:[UIFont systemFontOfSize:12]];
+        [aboutButton setTitle:@"About" forState:UIControlStateNormal];
+        [aboutButton addTarget:self action:@selector(openAbout) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:aboutButton];
+        
         title = [[UILabel alloc] initWithFrame:CGRectMake(0, 160, 295, 30)];
         [title setFont:[UIFont fontWithName:@"HelveticaNeue-Light" size:25]];
         [title setTextAlignment:NSTextAlignmentCenter];
