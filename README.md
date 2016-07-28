@@ -2,7 +2,7 @@
 
 Movie player based on VLC
 
-It is MIT licensed
+Distributed under EULA.
 
 C2 makes use of the following libraries:
 
@@ -23,6 +23,7 @@ MediaLibraryKit \n Copyright 2010-2015 Pierre d´Herbemont, Felix Paul Kühne, T
 
   - MIT License: https://opensource.org/licenses/MIT
   
+  - EULA: LICENSED APPLICATION END USER LICENSE AGREEMENT (EULA): Bi-licensed under MPLv2 and GPLv2.1
 
 ###Contact us
 
