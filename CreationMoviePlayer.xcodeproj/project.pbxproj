@@ -101,7 +101,6 @@
 		7D3784C3183A9938009EE944 /* VLCStatusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3784BD183A9938009EE944 /* VLCStatusLabel.m */; };
 		7D3784C8183A9972009EE944 /* NSString+SupportedMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3784C5183A9972009EE944 /* NSString+SupportedMedia.m */; };
 		7D3784C9183A9972009EE944 /* UIDevice+SpeedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3784C7183A9972009EE944 /* UIDevice+SpeedCategory.m */; };
-		7D3784E7183A99E1009EE944 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3784E6183A99E1009EE944 /* Reachability.m */; };
 		7D3784E9183A9A15009EE944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3784E8183A9A15009EE944 /* main.m */; };
 		7D3EB014174A353E002062C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3EB013174A353E002062C2 /* SystemConfiguration.framework */; };
 		7D47D6F91760CD8700E86BAD /* subtitleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D47D6CB1760CD8700E86BAD /* subtitleIcon.png */; };
@@ -298,8 +297,6 @@
 		7D3784C5183A9972009EE944 /* NSString+SupportedMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SupportedMedia.m"; path = "Sources/NSString+SupportedMedia.m"; sourceTree = SOURCE_ROOT; };
 		7D3784C6183A9972009EE944 /* UIDevice+SpeedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SpeedCategory.h"; path = "Sources/UIDevice+SpeedCategory.h"; sourceTree = SOURCE_ROOT; };
 		7D3784C7183A9972009EE944 /* UIDevice+SpeedCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SpeedCategory.m"; path = "Sources/UIDevice+SpeedCategory.m"; sourceTree = SOURCE_ROOT; };
-		7D3784E5183A99E1009EE944 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Sources/Reachability.h; sourceTree = SOURCE_ROOT; };
-		7D3784E6183A99E1009EE944 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Sources/Reachability.m; sourceTree = SOURCE_ROOT; };
 		7D3784E8183A9A15009EE944 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
 		7D3784EA183A9A1E009EE944 /* CreationMoviePlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CreationMoviePlayer-Info.plist"; path = "Sources/CreationMoviePlayer-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7D3784EB183A9A1E009EE944 /* CreationMoviePlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CreationMoviePlayer-Prefix.pch"; path = "Sources/CreationMoviePlayer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -743,20 +740,10 @@
 		7DADC5601704FACC001DAC63 /* Imported */ = {
 			isa = PBXGroup;
 			children = (
-				7DC72D6517B7ED36008A26D0 /* Reachability */,
 				7D6B07A31716C9A6003280C4 /* OBSlider */,
 			);
 			name = Imported;
 			sourceTree = SOURCE_ROOT;
-		};
-		7DC72D6517B7ED36008A26D0 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				7D3784E5183A99E1009EE944 /* Reachability.h */,
-				7D3784E6183A99E1009EE944 /* Reachability.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
 		};
 		A7924697170F0ED20036AAF2 /* Resources */ = {
 			isa = PBXGroup;
@@ -1032,7 +1019,6 @@
 				113D8A80185787F200B12733 /* VLCMovieViewController.m in Sources */,
 				8D47CA841D3111E600E4F7F8 /* AboutViewController.m in Sources */,
 				7D3784C9183A9972009EE944 /* UIDevice+SpeedCategory.m in Sources */,
-				7D3784E7183A99E1009EE944 /* Reachability.m in Sources */,
 				65FD668A18C4816300EA072E /* VLCThumbnailsCache.m in Sources */,
 				657000C91BB060A90091AE5D /* PushNotificationsManager.m in Sources */,
 				7D3784E9183A9A15009EE944 /* main.m in Sources */,
