@@ -14,10 +14,10 @@
 
 #import "VLCSettingsController.h"
 #import "C5MPAppDelegate.h"
-#import "IASKSettingsReader.h"
-#import "IASKAppSettingsViewController.h"
+//#import "IASKSettingsReader.h"
+//#import "IASKAppSettingsViewController.h"
 
-@interface VLCSettingsController () <IASKSettingsDelegate>
+@interface VLCSettingsController () //<IASKSettingsDelegate>
 @end
 
 @implementation VLCSettingsController
@@ -25,8 +25,8 @@
 - (id)init
 {
     self = [super init];
-    if (self)
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingDidChange:) name:kIASKAppSettingChanged object:nil];
+    if (self){}
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(settingDidChange:) name:kIASKAppSettingChanged object:nil];
 
     return self;
 }
@@ -49,18 +49,18 @@
 //    }
 }
 
-- (void)settingsViewControllerDidEnd:(IASKAppSettingsViewController*)sender
-{
-//    [[(VLCAppDelegate*)[UIApplication sharedApplication].delegate revealController] toggleSidebar:![(VLCAppDelegate*)[UIApplication sharedApplication].delegate revealController].sidebarShowing duration:kGHRevealSidebarDefaultAnimationDuration];
-}
-
-- (void)settingsViewController:(IASKAppSettingsViewController*)sender buttonTappedForSpecifier:(IASKSpecifier*)specifier {
-//    if ([specifier.key isEqualToString:@"UnlinkDropbox"]) {
-//        [[DBSession sharedSession] unlinkAll];
-//    } else if ([specifier.key isEqualToString:@"UnlinkGoogleDrive"]) {
-//        [[VLCGoogleDriveController sharedInstance] logout];
-//    }
-}
+//- (void)settingsViewControllerDidEnd:(IASKAppSettingsViewController*)sender
+//{
+////    [[(VLCAppDelegate*)[UIApplication sharedApplication].delegate revealController] toggleSidebar:![(VLCAppDelegate*)[UIApplication sharedApplication].delegate revealController].sidebarShowing duration:kGHRevealSidebarDefaultAnimationDuration];
+//}
+//
+//- (void)settingsViewController:(IASKAppSettingsViewController*)sender buttonTappedForSpecifier:(IASKSpecifier*)specifier {
+////    if ([specifier.key isEqualToString:@"UnlinkDropbox"]) {
+////        [[DBSession sharedSession] unlinkAll];
+////    } else if ([specifier.key isEqualToString:@"UnlinkGoogleDrive"]) {
+////        [[VLCGoogleDriveController sharedInstance] logout];
+////    }
+//}
 
 
 @end
