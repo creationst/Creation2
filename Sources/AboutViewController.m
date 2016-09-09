@@ -28,7 +28,8 @@
     
     UITextView *text = [[UITextView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height-100)];
     [text setEditable:NO];
-    [text setText:@"C2 is based on VLC for iOS and distributed under EULA license \n\n"
+     
+     NSString *text1 = @"C2 is based on VLC for iOS and distributed under EULA license \n\n"
      
      "You can download it as a git repository on https://github.com/creationst/Creation2.git \n\n"
      
@@ -42,13 +43,26 @@
      
      "MediaLibraryKit \n Copyright 2010-2015 Pierre d´Herbemont, Felix Paul Kühne, Tobias Conradi, Carola Nitz, et al. - LGPLv2.1 or later\n\n"
      
+     "OBSlider \n Copyrigth 2011 Ole Begemann and contributors - MIT License"
+     
      "LGPLv2.1: https://opensource.org/licenses/LGPL-2.1 \n\n"
      
      "Mozilla Public License Version 2: https://opensource.org/licenses/MPL-2.0 \n\n"
      
      "GNU General Public License Version 2: https://opensource.org/licenses/GPL-2.0 \n\n"
      
-     "LICENSED APPLICATION END USER LICENSE AGREEMENT (EULA): Bi-licensed under MPLv2 and GPLv2.1"];
+     "LICENSED APPLICATION END USER LICENSE AGREEMENT (EULA): Bi-licensed under MPLv2 and LGPLv2.1";
+    
+    NSString* filePathMPL = [[NSBundle mainBundle] pathForResource:@"mpl" ofType:@"txt"];
+    NSString *textMPL = [NSString stringWithContentsOfFile:filePathMPL encoding:NSUTF8StringEncoding error:nil];
+    
+    NSString* filePathLGPL = [[NSBundle mainBundle] pathForResource:@"lgpl" ofType:@"txt"];
+    NSString *textLGPL = [NSString stringWithContentsOfFile:filePathLGPL encoding:NSUTF8StringEncoding error:nil];
+    
+    NSString* filePathMIT = [[NSBundle mainBundle] pathForResource:@"mit" ofType:@"txt"];
+    NSString *textMIT = [NSString stringWithContentsOfFile:filePathMIT encoding:NSUTF8StringEncoding error:nil];
+    
+    [text setText: [NSString stringWithFormat:@"%@\n\n\n\n\n\n%@\n\n\n\n\n\n%@\n\n\n\n\n\n%@", text1, textMPL, textLGPL, textMIT]];
     
     [self.view addSubview:text];
     

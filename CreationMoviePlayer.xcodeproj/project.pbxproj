@@ -152,6 +152,9 @@
 		7DF7CA0717650C2A00C61739 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF7CA0617650C2A00C61739 /* AVFoundation.framework */; };
 		7DF7E791175F47DC0018858D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF7E790175F47DC0018858D /* MediaPlayer.framework */; };
 		8D47CA841D3111E600E4F7F8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D47CA831D3111E600E4F7F8 /* AboutViewController.m */; };
+		8D672FC71D83316E00C85E11 /* mpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D672FC61D83316E00C85E11 /* mpl.txt */; };
+		8D672FC91D8336B900C85E11 /* lgpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D672FC81D8336B900C85E11 /* lgpl.txt */; };
+		8D672FCB1D8338F300C85E11 /* mit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D672FCA1D8338F300C85E11 /* mit.txt */; };
 		A5A36332185BA58F009C1C62 /* forceCPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5A36331185BA58F009C1C62 /* forceCPP.mm */; };
 		A79246C8170F11DF0036AAF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79246C6170F11DF0036AAF2 /* Localizable.strings */; };
 		A7CB0DB11716F72600050CF3 /* PlayingExternally@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CB0DAD1716F72600050CF3 /* PlayingExternally@2x~iphone.png */; };
@@ -365,6 +368,9 @@
 		7DF7E790175F47DC0018858D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8D47CA821D3111E600E4F7F8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Sources/AboutViewController.h; sourceTree = SOURCE_ROOT; };
 		8D47CA831D3111E600E4F7F8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Sources/AboutViewController.m; sourceTree = SOURCE_ROOT; };
+		8D672FC61D83316E00C85E11 /* mpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mpl.txt; sourceTree = "<group>"; };
+		8D672FC81D8336B900C85E11 /* lgpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lgpl.txt; sourceTree = "<group>"; };
+		8D672FCA1D8338F300C85E11 /* mit.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mit.txt; sourceTree = "<group>"; };
 		A5A36331185BA58F009C1C62 /* forceCPP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = forceCPP.mm; sourceTree = "<group>"; };
 		A79246C7170F11DF0036AAF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A79246C9170F11E40036AAF2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -646,6 +652,9 @@
 		7D94FCD216DE7D1000F2623B = {
 			isa = PBXGroup;
 			children = (
+				8D672FCA1D8338F300C85E11 /* mit.txt */,
+				8D672FC81D8336B900C85E11 /* lgpl.txt */,
+				8D672FC61D83316E00C85E11 /* mpl.txt */,
 				1110595A1B31DDFE0006CCDF /* MoviePlayer.entitlements */,
 				A5A36331185BA58F009C1C62 /* forceCPP.mm */,
 				653C40E91BA1CD4900341E78 /* MediaLibrary.xcdatamodeld */,
@@ -945,6 +954,7 @@
 				11656EDF1B3433E80080DEFB /* Icon-Small-50.png in Resources */,
 				11656EDA1B3433E80080DEFB /* Icon-76.png in Resources */,
 				7D47D71D1760CD8700E86BAD /* audioTrackIcon@2x.png in Resources */,
+				8D672FC91D8336B900C85E11 /* lgpl.txt in Resources */,
 				7D47D71E1760CD8700E86BAD /* backIcon.png in Resources */,
 				11656EE41B3433E80080DEFB /* Icon.png in Resources */,
 				7D47D71F1760CD8700E86BAD /* backIcon@2x.png in Resources */,
@@ -960,9 +970,11 @@
 				7D1AC3051762996100BD2EB5 /* resetIcon@2x.png in Resources */,
 				7D1AC30817629AB600BD2EB5 /* ratioIcon.png in Resources */,
 				7D1AC30917629AB600BD2EB5 /* ratioIcon@2x.png in Resources */,
+				8D672FC71D83316E00C85E11 /* mpl.txt in Resources */,
 				65FD66CF18C9E29900EA072E /* fw@2x.png in Resources */,
 				7DF1166C176CC69A009EC05C /* volumeballslider.png in Resources */,
 				65FD66CB18C9E29900EA072E /* rw.png in Resources */,
+				8D672FCB1D8338F300C85E11 /* mit.txt in Resources */,
 				7DF1166D176CC69A009EC05C /* volumeballslider@2x.png in Resources */,
 				65FD66AB18C74BBD00EA072E /* edit.png in Resources */,
 				11656EDB1B3433E80080DEFB /* Icon-76@2x.png in Resources */,
